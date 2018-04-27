@@ -100,7 +100,7 @@ by using the proper bull prefix option as a cluster "hash tag". Hash tags are us
 that certain keys are placed in the same hash slot, read more about hash tags in the [redis cluster
 tutorial](https://redis.io/topics/cluster-tutorial).
 
-A hash tag is defined with brakets. I.e. a key that has a substring inside brackets will use that
+A hash tag is defined with brackets. I.e. a key that has a substring inside brackets will use that
 substring to determine in which hash slot the key will be placed. So to make bull compatible with
 cluster, just use a queue prefix inside brackes, for example:
 
